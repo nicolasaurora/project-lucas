@@ -11,7 +11,7 @@
     const fetchData = async () => {
         try {
             const response = await fetch('http://localhost:8000/data');
-            //const response = await fetch('http://app:8001/data');
+            
             const data = await response.json();
 
             

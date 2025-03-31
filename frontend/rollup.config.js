@@ -32,13 +32,13 @@ function serve() {
 
 export default {
 	input: 'src/main.js',
-	//input: 'frontend/svelte-app/src/main.js',
+	
 	output: {
 		sourcemap: true,
 		format: 'iife',
 		name: 'app',
 		file: 'public/build/bundle.js'
-		//file: 'dist/build/bundle.js'
+		
 	},
 	plugins: [
 		svelte({
@@ -55,7 +55,7 @@ export default {
 		// npm, you'll most likely need these plugins. In
 		// some cases you'll need additional configuration -
 		// consult the documentation for details:
-		// https://github.com/rollup/plugins/tree/master/packages/commonjs
+		
 		resolve({
 			browser: true,
 			dedupe: ['svelte'],
