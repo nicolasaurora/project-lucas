@@ -1,0 +1,31 @@
+services:
+  frontend:
+    build:
+      context: ./frontend  
+      dockerfile: ./Dockerfile
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - app-net
+
+  backend:
+    build:
+      context: ./backend  
+      dockerfile: ./Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data.json:/app/data.json:ro
+    environment:
+      - UVICORN_RELOAD=True
+    networks:
+      - app-net 
+    
+
+networks:
+  app-net:
+
+
+  
