@@ -1,7 +1,7 @@
 # **Proyecto: App visualización de datos📊🚀**  
 
-Esta aplicación es una herramienta de visualización de datos que fue desarrollada con FastAPI en el Backend, Svelte en el Frontend y eCharts para la representación grafica de datos. 
-Tambien se implemento Docker en el proyecto para facilitar su despliegue, mantenimiento y ejecución.
+Esta aplicación es una herramienta de visualización de datos que fue desarrollada con FastAPI en el Backend, Svelte en el Frontend y eCharts para la representación gráfica de datos. 
+Tambien se implementó Docker en el proyecto para facilitar su despliegue, mantenimiento y ejecución.
 
 ## **Tecnologías Utilizadas:**                    
 
