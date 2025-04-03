@@ -31,7 +31,7 @@ Tambien se implementó Docker en el proyecto para facilitar su despliegue, mante
 - docker-compose up --build
 
 ### **Acceder a la Aplicación**
-- API (FastAPI docs): http://localhost:8000/data
+- API (FastAPI): http://localhost:8000/data
 - Frontend (Svelte App): http://localhost:3000
 
 ## **Estructura del Proyecto**
